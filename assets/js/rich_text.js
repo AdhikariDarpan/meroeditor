@@ -12,9 +12,6 @@ document.querySelectorAll(".nav-item").forEach((item) => {
       }
     });
     this.classList.add("show-submenu");
-    if (document.getElementById("dialogOverlay").classList.contains("active")) {
-      hideDialogueBox();
-    }
   });
   document.addEventListener("click", function (e) {
     if (!item.contains(e.target)) {
