@@ -701,7 +701,7 @@ horizontalBtn.addEventListener("click", (e) => {
    </div>
    <div class="input-field">
     <label>Line Thickness(px)</label>
-    <input type="number" value="2" style="--width:50px;" id="HLinethickNess"/>
+    <input type="number" value="1" style="--width:50px;" id="HLinethickNess"/>
    </div>
    <div class="input-field">
     <label>Choose Color</label>
